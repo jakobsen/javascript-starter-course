@@ -1,0 +1,21 @@
+.message {
+    background: rgb(20, 136, 20);
+    color: #fff;
+    border-radius: 5px;
+    height: 3em;
+    display: flex;
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+.message > p {
+    margin: auto;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.fade {
+    opacity: 0;
+}
